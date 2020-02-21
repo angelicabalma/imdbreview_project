@@ -8,13 +8,13 @@ def combine_text_files(dirpath, out_filename):
 
     # convert filename to path
     outpath = dirpath.parent
-    outpath = dirpath.joinpath(out_filename)
+    outpath = outpath.joinpath(out_filename)
 
     # read files
     counter = 0
     with open(outpath, "w") as new_file:
         for file in dirpath.glob("*.txt"):
-            reader = f.open(file, "r")
+            reader = open(file, "r")
             contents = reader.read()
             new_file.write(contents + "\n")
             reader.close()

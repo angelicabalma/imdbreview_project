@@ -1,6 +1,6 @@
 # Project-03 IMDB_Review
 ## Description
-We attempted to visualize the growth/decline of GDP over a twenty year span, with a specific focus on the GDP-based performance of different industries in their respective states. We scraped the data from the Bureau of Economic Analysis, official US Gov. website: https://apps.bea.gov/iTable/index_regional.cfm, and used that dataset as the basis for our visualization.
+
 ## Clone:
 * Clone this repo to your local machine using https://github.com/angelicabalma/imdbreview_project
 ## Built With:

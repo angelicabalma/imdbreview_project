@@ -28,7 +28,7 @@ def combine_text_files(dirpath, out_filename):
     print("Done!")
     
 
-def normalize_reviews(text):
+def normalize_reviews(text, stopwords, punctuation):
     '''
     This function normalizes string data to be lowercase, have no punctuation, and be only characters [a-z]
     

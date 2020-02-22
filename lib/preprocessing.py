@@ -1,6 +1,5 @@
 from pathlib import Path
 
-from nltk.corpus import word_tokenize
 import re
 
 def combine_text_files(dirpath, out_filename):

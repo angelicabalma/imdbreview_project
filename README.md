@@ -17,6 +17,8 @@
 * https://github.com/angelicabalma
 * https://github.com/tecneesh
 * https://github.com/bryan-lopez
+* https://github.com/soraerae
+
 ## Dataset Citation
 * @InProceedings{maas-EtAl:2011:ACL-HLT2011,
   author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},

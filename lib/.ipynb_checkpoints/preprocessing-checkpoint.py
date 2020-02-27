@@ -1,5 +1,9 @@
+# Part 1
 from pathlib import Path
 
+# Part 2
+from nltk.tokenize import word_tokenize
+from functools import reduce
 import re
 
 def combine_text_files(dirpath, out_filename):
@@ -42,4 +46,16 @@ def normalize_reviews(text, stopwords, punctuation):
     for w in tokens:
         if w not in stopwords and w not in punctuation:
             filtered.append(w)
+    text = reduce((lambda x,y: x + " " + y), filtered)
     return filtered
+
+def word_freq(reviews):
+    freqs = {}
+    for review in reviews:
+        tokens = word_tokenize(review)
+        for token in tokens:
+            if token not in freqs:
+                freqs[token] = 1
+            else:
+                freqs[token] += 1
+    return freqs

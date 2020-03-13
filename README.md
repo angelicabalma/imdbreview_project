@@ -10,8 +10,9 @@ For this analysis, we used a dataset of 50,000 movie reviews taken from IMDb. Th
 ## Dependencies:
 * SQLAlchemy
 * Pandas
-* Flask
-* BeautifulSoup
+* TensorFlow
+* SciKit-Learn
+
 ## File Breakdown:
 
 ## Contributors:

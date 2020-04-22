@@ -1,7 +1,7 @@
 # Project-03 IMDB_Review
 ## Description
 
-For this analysis, we used a dataset of 50,000 movie reviews taken from IMDb. The data is split evenly with 25,000 positive reviews and 25,000 negative reviews. Our first step was cleaning and transforming the data. After we cleaned the data, we removed stop words, punctuation and tokenized the words in the reviews. Then we created a bag of the tokenized words. Subsequently, we built our model using a logistics regression. Our last step was visualizing the data and the model's output, where we used Tableau.
+This project focuses on a sentiment analysis for IMDB movie reviews. The model was built to classify between negative and positive movie reviews and to obtain its accuracy. For this analysis, we used a dataset of 50,000 movie reviews. The data is split evenly with 25,000 positive reviews and 25,000 negative reviews. Our first step was cleaning and transforming the data. After we cleaned the data, we removed stop words, punctuation and tokenized the words in the reviews. Then we created a bag of the tokenized words. Subsequently, we built our model using a logistics regression. Our last step was visualizing the data and the model's output, where we used Tableau.
 
 ## Clone:
 * Clone this repo to your local machine using https://github.com/angelicabalma/imdbreview_project
